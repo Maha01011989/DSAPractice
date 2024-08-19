@@ -3,7 +3,7 @@ package org.dsapractice.arrays;
 public class PeakElement {
 
     public static void main(String[] args) {
-        int arr[] = {1, 2, 4, 5, 6, 10, 9};
+        int arr[] = {10, 20, 15, 2, 23, 90, 67};
         System.out.println(findOrder(arr));
         System.out.println(getPeakElement(arr));
     }
