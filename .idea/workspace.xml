@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MoveZeroToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/practice/Strings/ABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/starpattern/NumberIncreasingRightTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MoveZeroToEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MoveZeroToEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
   "keyToString": {
     "Application.HollowSquare.executor": "Run",
     "Application.MoveZeroToEnd.executor": "Run",
+    "Application.NumberIncreasingRightTriangle.executor": "Run",
     "Application.NumberRightTriangle.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.PeakElement.executor": "Run",
@@ -59,7 +62,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MoveZeroToEnd">
+  <component name="RunManager" selected="Application.NumberIncreasingRightTriangle">
     <configuration name="HollowSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.starpattern.HollowSquare" />
       <module name="DSAPractice" />
@@ -86,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.starpattern.Pattern" />
+    <configuration name="NumberIncreasingRightTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.starpattern.NumberIncreasingRightTriangle" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -99,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.PeakElement" />
+    <configuration name="NumberRightTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.starpattern.NumberRightTriangle" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="PATTERN" value="org.dsapractice.starpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberIncreasingRightTriangle" />
+        <item itemvalue="Application.NumberRightTriangle" />
         <item itemvalue="Application.MoveZeroToEnd" />
         <item itemvalue="Application.HollowSquare" />
         <item itemvalue="Application.ProductArray" />
-        <item itemvalue="Application.PeakElement" />
-        <item itemvalue="Application.Pattern" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724090985275</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1724162195135</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724162195135</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -1,13 +1,5 @@
-package org.dsapractice.arrays;
-
-import java.util.Arrays;
-
-public class MoveZeroToEnd {
-
-    public static void main(String[] args) {
-
-
-        int[] nums = {1, 0, 0, 1, 2, 4, 3, 0, 2, 0, 3, 0, 0, 4};
+class Solution {
+    public int[] moveZeroes(int[] nums) {
 
         for (int i = 0; i < nums.length; i++) {
 
@@ -25,9 +17,10 @@ public class MoveZeroToEnd {
             }
         }
 
-        System.out.println(Arrays.toString(nums));
+        return nums;
 
 
     }
-
 }
+
+        
