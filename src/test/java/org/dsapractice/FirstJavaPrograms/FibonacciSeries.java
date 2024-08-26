@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class FibonacciSeries {
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(getFiboSeries(20)));
+        System.out.println(Arrays.toString(getFiboSeries(1)));
+        System.out.println(getSumFiboSeries(getFiboSeries(1)));
     }
 
     static int[] getFiboSeries(int x) {
@@ -28,6 +29,16 @@ public class FibonacciSeries {
             }
         }
         return arr;
+    }
+
+    static int getSumFiboSeries(int[] arr) {
+        if (arr.length > 1)
+            return arr[arr.length - 1] + arr[arr.length - 2];
+        else if( arr.length == 1)
+            return 1;
+        else
+            return 0;
+
     }
 }
 
