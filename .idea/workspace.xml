@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/FibonacciSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/OddOrEven.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +36,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FibonacciSeries.executor": "Run",
     "Application.HollowSquare.executor": "Run",
     "Application.MaxProfitStock.executor": "Run",
     "Application.MoveZeroToEnd.executor": "Run",
     "Application.NumberIncreasingRightTriangle.executor": "Run",
     "Application.NumberRightTriangle.executor": "Run",
     "Application.NumberTriangle.executor": "Run",
+    "Application.OddOrEven.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.PeakElement.executor": "Run",
     "Application.Practice.executor": "Run",
@@ -65,13 +68,13 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="MaxProfitStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.MaxProfitStock" />
+  <component name="RunManager" selected="Application.FibonacciSeries">
+    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.FibonacciSeries" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,6 +88,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dsapractice.starpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.OddOrEven" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,19 +134,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroOneTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.starpattern.ZeroOneTriangle" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.starpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FibonacciSeries" />
+        <item itemvalue="Application.OddOrEven" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.SortColors75" />
         <item itemvalue="Application.NumberTriangle" />
-        <item itemvalue="Application.ZeroOneTriangle" />
-        <item itemvalue="Application.MaxProfitStock" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724594495519</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1724597614756</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724597614756</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
