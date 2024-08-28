@@ -19,7 +19,7 @@ public class Palindrome {
     public static boolean isValidPalindrome(String s) {
 
         StringBuilder sb = new StringBuilder(s.replaceAll("[^A-Za-z0-9]", "").toLowerCase());
-        if (sb.toString().equals(sb.reverse().toString())) {
+        if (sb.toString().contentEquals(sb.reverse())) {
             return true;
         } else {
             return false;

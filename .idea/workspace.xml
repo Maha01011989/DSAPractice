@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/ArmStrongNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/ProductAndSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/TypeOfTriangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/Palindrome.java" afterDir="false" />
     </list>
@@ -39,6 +41,7 @@
     "Application.ArmStrongNumber.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.HollowSquare.executor": "Run",
+    "Application.LongestPalindrome.executor": "Debug",
     "Application.MaxProfitStock.executor": "Run",
     "Application.MoveZeroToEnd.executor": "Run",
     "Application.NumberIncreasingRightTriangle.executor": "Run",
@@ -49,11 +52,13 @@
     "Application.Pattern.executor": "Run",
     "Application.PeakElement.executor": "Run",
     "Application.Practice.executor": "Run",
+    "Application.ProductAndSum.executor": "Debug",
     "Application.ProductArray.executor": "Run",
     "Application.Rhombus.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.SortColors75.executor": "Run",
     "Application.StringReplace.executor": "Run",
+    "Application.TypeOfTriangle.executor": "Run",
     "Application.ZeroOneTriangle.executor": "Run",
     "Application.org.dsapractice.strings.StringReplace.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
@@ -70,7 +75,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Palindrome">
+  <component name="RunManager" selected="Application.TypeOfTriangle">
     <configuration name="ArmStrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.ArmStrongNumber" />
       <module name="DSAPractice" />
@@ -84,21 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.FibonacciSeries" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.OddOrEven" />
+    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.LongestPalindrome" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -123,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.SelectionSort" />
+    <configuration name="ProductAndSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.ProductAndSum" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.sorting.*" />
+          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TypeOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.TypeOfTriangle" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeOfTriangle" />
+        <item itemvalue="Application.ProductAndSum" />
+        <item itemvalue="Application.LongestPalindrome" />
         <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.ArmStrongNumber" />
-        <item itemvalue="Application.FibonacciSeries" />
-        <item itemvalue="Application.OddOrEven" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724827586542</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1724830289253</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1724830289253</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
