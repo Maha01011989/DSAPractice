@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/Palindrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/FibonacciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/FibonacciSeries.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "Application.NumberRightTriangle.executor": "Run",
     "Application.NumberTriangle.executor": "Run",
     "Application.OddOrEven.executor": "Run",
+    "Application.Palindrome.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.PeakElement.executor": "Run",
     "Application.Practice.executor": "Run",
@@ -67,7 +68,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FibonacciSeries">
+  <component name="RunManager" selected="Application.Palindrome">
     <configuration name="FibonacciSeries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.FibonacciSeries" />
       <module name="DSAPractice" />
@@ -81,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.starpattern.NumberTriangle" />
+    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.OddOrEven" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.starpattern.*" />
+          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddOrEven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.OddOrEven" />
+    <configuration name="Palindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.Palindrome" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -146,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Palindrome" />
         <item itemvalue="Application.FibonacciSeries" />
         <item itemvalue="Application.OddOrEven" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.SortColors75" />
-        <item itemvalue="Application.NumberTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +275,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724649865927</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1724652031585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724652031585</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
