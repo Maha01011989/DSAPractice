@@ -6,9 +6,10 @@ public class NumbersSmallerThan {
 
     public static void main(String[] args) {
 
-        int[] arr = {5,4,7,2,1};
+        int[] arr = new int[10];
+        System.out.println(Arrays.toString(arr));
 
-        System.out.println(Arrays.toString(smallerNumbersThanCurrent(arr)));
+        //System.out.println(Arrays.toString(smallerNumbersThanCurrent(arr)));
 
 
     }
