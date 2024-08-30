@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/FirstJavaPrograms/Pangram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/CreateTargetArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/EvenFormOfInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/EvenNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/NumbersSmallerThan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/NumbersSmallerThan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,8 @@
   "keyToString": {
     "Application.ArmStrongNumber.executor": "Run",
     "Application.CreateTargetArray.executor": "Run",
+    "Application.EvenFormOfInteger.executor": "Run",
+    "Application.EvenNumbers.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.HollowSquare.executor": "Run",
     "Application.LongestPalindrome.executor": "Debug",
@@ -78,7 +80,20 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CreateTargetArray">
+  <component name="RunManager" selected="Application.BubbleSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.BubbleSort" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CreateTargetArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.CreateTargetArray" />
       <module name="DSAPractice" />
@@ -92,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.strings.LongestSubString" />
+    <configuration name="EvenFormOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.EvenFormOfInteger" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.strings.*" />
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersSmallerThan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.NumbersSmallerThan" />
+    <configuration name="EvenNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.EvenNumbers" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -131,19 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeOfTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.FirstJavaPrograms.TypeOfTriangle" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.FirstJavaPrograms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.EvenFormOfInteger" />
+        <item itemvalue="Application.EvenNumbers" />
         <item itemvalue="Application.CreateTargetArray" />
         <item itemvalue="Application.Pangram" />
-        <item itemvalue="Application.NumbersSmallerThan" />
-        <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.TypeOfTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -325,11 +327,30 @@
       <option name="project" value="LOCAL" />
       <updated>1724938020631</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1724942308668</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1724942308668</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My practice" />
     <option name="LAST_COMMIT_MESSAGE" value="My practice" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/EvenFormOfInteger.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
