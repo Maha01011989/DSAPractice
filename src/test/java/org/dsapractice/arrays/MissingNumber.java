@@ -1,12 +1,13 @@
 package org.dsapractice.arrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class MissingNumber {
 
     public static void main(String[] args) {
 
-        int[] nums = {0, 2};
+        int[] nums = {4,3,2,0};
 
         System.out.println(missingNumber(nums));
 
