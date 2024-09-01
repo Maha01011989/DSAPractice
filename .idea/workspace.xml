@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/AllMissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/DuplicateInArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MissingNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/AllMissingNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/AllMissingNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2khB2p12T7RvwHods2bcZeHkZss" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -53,6 +55,7 @@
     "Application.BubbleSort.executor": "Run",
     "Application.CreateTargetArray.executor": "Run",
     "Application.CycleSort.executor": "Run",
+    "Application.DuplicateInArray.executor": "Run",
     "Application.EvenFormOfInteger.executor": "Run",
     "Application.EvenNumbers.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
@@ -98,7 +101,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AllMissingNumber">
+  <component name="RunManager" selected="Application.DuplicateInArray">
     <configuration name="AllMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.AllMissingNumber" />
       <module name="DSAPractice" />
@@ -112,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CycleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.CycleSort" />
+    <configuration name="DuplicateInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.DuplicateInArray" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.sorting.*" />
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DuplicateInArray" />
         <item itemvalue="Application.AllMissingNumber" />
         <item itemvalue="JUnit.org.dsapractice.arrays in DSAPractice" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.HollowSquare" />
-        <item itemvalue="Application.CycleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -360,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725106361146</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1725188267642</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1725188267642</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
