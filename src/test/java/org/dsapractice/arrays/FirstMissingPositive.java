@@ -1,7 +1,5 @@
 package org.dsapractice.arrays;
 
-import java.util.Arrays;
-
 public class FirstMissingPositive {
 
     public static void main(String[] args) {
