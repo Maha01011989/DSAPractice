@@ -5,10 +5,7 @@ public class BinarySearch {
 
         int[] nums = {-20, -15, -1, 0, 1, 2, 3, 4, 5, 6, 8, 10, 12, 33};
         int target = -20;
-
         System.out.println(binarySearch(nums, target));
-
-
     }
 
 

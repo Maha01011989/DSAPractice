@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/GoodPairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/SearchIn2DArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/BinarySearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +84,7 @@
     "Application.ProductAndSum.executor": "Debug",
     "Application.ProductArray.executor": "Run",
     "Application.Rhombus.executor": "Run",
+    "Application.SearchIn2DArray.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.SetMismatch.executor": "Run",
     "Application.SortColors75.executor": "Run",
@@ -108,7 +108,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch">
+  <component name="RunManager" selected="Application.SearchIn2DArray">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.BinarySearch" />
       <module name="DSAPractice" />
@@ -161,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.SetMismatch" />
+    <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.SearchIn2DArray" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SearchIn2DArray" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.GoodPairs" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.SetMismatch" />
       </list>
     </recent_temporary>
   </component>
@@ -432,7 +432,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725343417335</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1725427894701</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1725427894701</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
