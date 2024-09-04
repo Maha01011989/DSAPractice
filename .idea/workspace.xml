@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/GoodPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/MergeSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +54,7 @@
     "Application.AllDuplicates.executor": "Run",
     "Application.AllMissingNumber.executor": "Run",
     "Application.ArmStrongNumber.executor": "Run",
+    "Application.BinarySearch.executor": "Run",
     "Application.BubbleSort.executor": "Run",
     "Application.CreateTargetArray.executor": "Run",
     "Application.CycleSort.executor": "Run",
@@ -59,12 +63,13 @@
     "Application.EvenNumbers.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
     "Application.FirstMissingPositive.executor": "Run",
+    "Application.GoodPairs.executor": "Run",
     "Application.HollowSquare.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.LongestPalindrome.executor": "Debug",
     "Application.LongestSubString.executor": "Run",
     "Application.MaxProfitStock.executor": "Run",
-    "Application.MergeSortedArray.executor": "Debug",
+    "Application.MergeSortedArray.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.MoveZeroToEnd.executor": "Run",
     "Application.NumberIncreasingRightTriangle.executor": "Run",
@@ -103,26 +108,13 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArray">
-    <configuration name="AllDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.AllDuplicates" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.BinarySearch" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuplicateInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.DuplicateInArray" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +124,19 @@
     </configuration>
     <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.FirstMissingPositive" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.GoodPairs" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.GoodPairs" />
         <item itemvalue="Application.MergeSortedArray" />
         <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.SetMismatch" />
-        <item itemvalue="Application.AllDuplicates" />
-        <item itemvalue="Application.DuplicateInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725342543910</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1725343417335</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1725343417335</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -433,11 +446,6 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/EvenFormOfInteger.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/sorting/MergeSortedArray.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
