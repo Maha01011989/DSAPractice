@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/FindPeakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/MountainArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/PeakInMountainArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/PivotElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/RotatedBinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/PeakInMountainArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/PeakInMountainArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,12 +87,14 @@
     "Application.Pangram.executor": "Run",
     "Application.Pattern.executor": "Run",
     "Application.PeakElement.executor": "Run",
-    "Application.PeakInMountainArray.executor": "Run",
+    "Application.PeakInMountainArray.executor": "Debug",
+    "Application.PivotElement.executor": "Run",
     "Application.Practice.executor": "Run",
     "Application.PracticeArr.executor": "Run",
     "Application.ProductAndSum.executor": "Debug",
     "Application.ProductArray.executor": "Run",
     "Application.Rhombus.executor": "Run",
+    "Application.RotatedBinarySearch.executor": "Run",
     "Application.SearchIn2DArray.executor": "Run",
     "Application.SelectionSort.executor": "Run",
     "Application.SetMismatch.executor": "Run",
@@ -119,26 +120,13 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MountainArray">
+  <component name="RunManager" selected="Application.RotatedBinarySearch">
     <configuration name="FirstAndLastPosition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.FirstAndLastPosition" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dsapractice.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KthLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.KthLargestElement" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +160,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.SmallestLetter" />
+    <configuration name="PivotElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.PivotElement" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RotatedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.RotatedBinarySearch" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -187,11 +188,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MountainArray" />
+        <item itemvalue="Application.RotatedBinarySearch" />
+        <item itemvalue="Application.PivotElement" />
         <item itemvalue="Application.PeakInMountainArray" />
+        <item itemvalue="Application.MountainArray" />
         <item itemvalue="Application.FirstAndLastPosition" />
-        <item itemvalue="Application.KthLargestElement" />
-        <item itemvalue="Application.SmallestLetter" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +492,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725789796396</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1725868135116</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1725868135116</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
