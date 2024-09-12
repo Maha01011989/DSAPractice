@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/FirstBadVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/GuessNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +67,7 @@
     "Application.FirstMissingPositive.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.GoodPairs.executor": "Run",
+    "Application.GuessNumber.executor": "Run",
     "Application.HollowSquare.executor": "Run",
     "Application.InsertionSort.executor": "Run",
     "Application.KthLargestElement.executor": "Run",
@@ -122,7 +122,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FirstBadVersion">
+  <component name="RunManager" selected="Application.GuessNumber">
     <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.FirstBadVersion" />
       <module name="DSAPractice" />
@@ -136,8 +136,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.MinimumInRotatedSortedArray" />
+    <configuration name="GuessNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.GuessNumber" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -149,8 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PivotElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.PivotElement" />
+    <configuration name="MinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.MinimumInRotatedSortedArray" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -190,11 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GuessNumber" />
         <item itemvalue="Application.FirstBadVersion" />
         <item itemvalue="Application.MinimumInRotatedSortedArray" />
         <item itemvalue="Application.RotationCount" />
         <item itemvalue="Application.RotatedBinarySearch" />
-        <item itemvalue="Application.PivotElement" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726037512183</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726121310612</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1726121310612</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
