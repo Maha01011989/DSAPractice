@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/GuessNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/PLusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/MaxCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/GuessNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/GuessNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +75,7 @@
     "Application.KthLargestElement.executor": "Run",
     "Application.LongestPalindrome.executor": "Debug",
     "Application.LongestSubString.executor": "Run",
+    "Application.MaxCount.executor": "Run",
     "Application.MaxProfitStock.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
     "Application.MinimumInRotatedSortedArray.executor": "Run",
@@ -84,6 +87,7 @@
     "Application.NumberTriangle.executor": "Run",
     "Application.NumbersSmallerThan.executor": "Run",
     "Application.OddOrEven.executor": "Run",
+    "Application.PLusOne.executor": "Run",
     "Application.Palindrome.executor": "Run",
     "Application.Pangram.executor": "Run",
     "Application.Pattern.executor": "Run",
@@ -122,7 +126,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GuessNumber">
+  <component name="RunManager" selected="Application.MaxCount">
     <configuration name="FirstBadVersion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.FirstBadVersion" />
       <module name="DSAPractice" />
@@ -149,6 +153,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.MaxCount" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinimumInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.MinimumInRotatedSortedArray" />
       <module name="DSAPractice" />
@@ -162,25 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotatedBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.RotatedBinarySearch" />
+    <configuration name="PLusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.PLusOne" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RotationCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.RotationCount" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxCount" />
+        <item itemvalue="Application.PLusOne" />
         <item itemvalue="Application.GuessNumber" />
         <item itemvalue="Application.FirstBadVersion" />
         <item itemvalue="Application.MinimumInRotatedSortedArray" />
-        <item itemvalue="Application.RotationCount" />
-        <item itemvalue="Application.RotatedBinarySearch" />
       </list>
     </recent_temporary>
   </component>
@@ -534,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726121310612</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726122824920</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1726122824920</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -553,6 +565,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/FirstBadVersion.java</url>
           <line>13</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/MaxCount.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

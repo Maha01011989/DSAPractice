@@ -6,7 +6,6 @@ public class GuessNumber {
         System.out.println(guessNumber(2));
     }
 
-
     public static int guessNumber(int n) {
 
         int start = 1;
