@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/ContainsDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/RemoveElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/SingleElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/RBSWithDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,8 +58,8 @@
     "Application.Ceiling.executor": "Run",
     "Application.ContainsDuplicates.executor": "Run",
     "Application.CreateTargetArray.executor": "Run",
-    "Application.CycleSort.executor": "Run",
-    "Application.DuplicateInArray.executor": "Run",
+    "Application.CycleSort.executor": "Debug",
+    "Application.DuplicateInArray.executor": "Debug",
     "Application.EvenFormOfInteger.executor": "Run",
     "Application.EvenNumbers.executor": "Run",
     "Application.FibonacciSeries.executor": "Run",
@@ -99,6 +97,7 @@
     "Application.PracticeArr.executor": "Run",
     "Application.ProductAndSum.executor": "Debug",
     "Application.ProductArray.executor": "Run",
+    "Application.RBSWithDuplicates.executor": "Debug",
     "Application.RemoveDuplicates.executor": "Debug",
     "Application.RemoveElement.executor": "Run",
     "Application.Rhombus.executor": "Run",
@@ -130,7 +129,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ContainsDuplicates">
+  <component name="RunManager" selected="Application.RBSWithDuplicates">
     <configuration name="ContainsDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.ContainsDuplicates" />
       <module name="DSAPractice" />
@@ -144,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.MaxCount" />
+    <configuration name="CycleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.CycleSort" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="PATTERN" value="org.dsapractice.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +156,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.RemoveDuplicates" />
+    <configuration name="DuplicateInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.DuplicateInArray" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RBSWithDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.RBSWithDuplicates" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,26 +195,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingleElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.SingleElement" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.searching.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RBSWithDuplicates" />
+        <item itemvalue="Application.CycleSort" />
+        <item itemvalue="Application.DuplicateInArray" />
         <item itemvalue="Application.ContainsDuplicates" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.SingleElement" />
-        <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.MaxCount" />
       </list>
     </recent_temporary>
   </component>
@@ -566,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726303687887</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726325846714</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1726325846714</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -595,6 +602,16 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/RemoveElement.java</url>
           <line>15</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/DuplicateInArray.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/RBSWithDuplicates.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
