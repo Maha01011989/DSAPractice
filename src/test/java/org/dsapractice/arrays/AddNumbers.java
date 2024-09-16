@@ -7,7 +7,6 @@ public class AddNumbers {
     }
 
     public static int addDigits(int num) {
-
         int sum = 0;
         do {
             while (num > 0) {
