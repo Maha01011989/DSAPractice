@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/AddNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/RemoveDuplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddNumbers.executor": "Debug",
     "Application.AllDuplicates.executor": "Run",
     "Application.AllMissingNumber.executor": "Run",
     "Application.ArmStrongNumber.executor": "Run",
@@ -131,13 +131,13 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IntersectionOfTwoArrays">
-    <configuration name="CycleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.CycleSort" />
+  <component name="RunManager" selected="Application.AddNumbers">
+    <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.AddNumbers" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.sorting.*" />
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.DuplicateInArray" />
+    <configuration name="CycleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.CycleSort" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="PATTERN" value="org.dsapractice.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddNumbers" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RBSWithDuplicates" />
         <item itemvalue="Application.CycleSort" />
-        <item itemvalue="Application.DuplicateInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +583,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726400953817</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726471169840</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1726471169840</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -627,6 +635,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java</url>
           <line>32</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/AddNumbers.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
