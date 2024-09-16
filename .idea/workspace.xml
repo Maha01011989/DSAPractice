@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/RBSWithDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/RemoveDuplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/RemoveDuplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +72,7 @@
     "Application.GuessNumber.executor": "Run",
     "Application.HollowSquare.executor": "Run",
     "Application.InsertionSort.executor": "Run",
+    "Application.IntersectionOfTwoArrays.executor": "Debug",
     "Application.KthLargestElement.executor": "Run",
     "Application.LongestPalindrome.executor": "Debug",
     "Application.LongestSubString.executor": "Run",
@@ -97,8 +99,8 @@
     "Application.PracticeArr.executor": "Run",
     "Application.ProductAndSum.executor": "Debug",
     "Application.ProductArray.executor": "Run",
-    "Application.RBSWithDuplicates.executor": "Debug",
-    "Application.RemoveDuplicates.executor": "Debug",
+    "Application.RBSWithDuplicates.executor": "Run",
+    "Application.RemoveDuplicates.executor": "Run",
     "Application.RemoveElement.executor": "Run",
     "Application.Rhombus.executor": "Run",
     "Application.RotatedBinarySearch.executor": "Run",
@@ -129,20 +131,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RBSWithDuplicates">
-    <configuration name="ContainsDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.ContainsDuplicates" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IntersectionOfTwoArrays">
     <configuration name="CycleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.sorting.CycleSort" />
       <module name="DSAPractice" />
@@ -169,6 +158,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.IntersectionOfTwoArrays" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RBSWithDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.RBSWithDuplicates" />
       <module name="DSAPractice" />
@@ -182,8 +184,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.RemoveElement" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.RemoveDuplicates" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -197,11 +199,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IntersectionOfTwoArrays" />
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.RBSWithDuplicates" />
         <item itemvalue="Application.CycleSort" />
         <item itemvalue="Application.DuplicateInArray" />
-        <item itemvalue="Application.ContainsDuplicates" />
-        <item itemvalue="Application.RemoveElement" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726325846714</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726400953817</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1726400953817</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -610,8 +620,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/RBSWithDuplicates.java</url>
-          <line>48</line>
+          <line>56</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/IntersectionOfTwoArrays.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
