@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/StringReverseArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/SingleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +109,7 @@
     "Application.SelectionSort.executor": "Run",
     "Application.SetMismatch.executor": "Run",
     "Application.SingleElement.executor": "Run",
+    "Application.SingleNumber.executor": "Debug",
     "Application.SmallestLetter.executor": "Run",
     "Application.SortColors75.executor": "Run",
     "Application.StringReplace.executor": "Run",
@@ -132,7 +133,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StringReverseArr">
+  <component name="RunManager" selected="Application.SingleNumber">
     <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.AddNumbers" />
       <module name="DSAPractice" />
@@ -159,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RBSWithDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.RBSWithDuplicates" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.RemoveDuplicates" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.RemoveDuplicates" />
+    <configuration name="SingleNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.SingleNumber" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -200,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.StringReverseArr" />
         <item itemvalue="Application.AddNumbers" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
         <item itemvalue="Application.RemoveDuplicates" />
-        <item itemvalue="Application.RBSWithDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -608,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726472552288</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726479810817</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1726479810817</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -654,9 +663,9 @@
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/StringReverseArr.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/SingleNumber.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
