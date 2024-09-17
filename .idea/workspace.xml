@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/SingleNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/PLusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/PLusOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
     "Application.NumberTriangle.executor": "Run",
     "Application.NumbersSmallerThan.executor": "Run",
     "Application.OddOrEven.executor": "Run",
-    "Application.PLusOne.executor": "Run",
+    "Application.PLusOne.executor": "Debug",
     "Application.Palindrome.executor": "Run",
     "Application.Pangram.executor": "Run",
     "Application.Pattern.executor": "Run",
@@ -133,7 +133,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingleNumber">
+  <component name="RunManager" selected="Application.PLusOne">
     <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.AddNumbers" />
       <module name="DSAPractice" />
@@ -160,8 +160,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.RemoveDuplicates" />
+    <configuration name="PLusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.PLusOne" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
@@ -201,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PLusOne" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.StringReverseArr" />
         <item itemvalue="Application.AddNumbers" />
         <item itemvalue="Application.IntersectionOfTwoArrays" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -224,14 +224,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723725468977</updated>
-    </task>
-    <task id="LOCAL-00001" summary="My practice">
-      <option name="closed" value="true" />
-      <created>1723728002892</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1723728002892</updated>
     </task>
     <task id="LOCAL-00002" summary="My practice">
       <option name="closed" value="true" />
@@ -617,7 +609,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726479810817</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726497612091</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1726497612091</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -666,6 +666,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/SingleNumber.java</url>
           <line>15</line>
           <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/PLusOne.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
