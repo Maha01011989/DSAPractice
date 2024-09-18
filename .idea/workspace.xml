@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/strings/FirstUniqueCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/PLusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/PLusOne.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +67,7 @@
     "Application.FirstAndLastPosition.executor": "Run",
     "Application.FirstBadVersion.executor": "Run",
     "Application.FirstMissingPositive.executor": "Run",
+    "Application.FirstUniqueCharacter.executor": "Run",
     "Application.Floor.executor": "Run",
     "Application.GoodPairs.executor": "Run",
     "Application.GuessNumber.executor": "Run",
@@ -133,7 +134,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PLusOne">
+  <component name="RunManager" selected="Application.FirstUniqueCharacter">
     <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.AddNumbers" />
       <module name="DSAPractice" />
@@ -147,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntersectionOfTwoArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.IntersectionOfTwoArrays" />
+    <configuration name="FirstUniqueCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.strings.FirstUniqueCharacter" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.searching.*" />
+          <option name="PATTERN" value="org.dsapractice.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstUniqueCharacter" />
         <item itemvalue="Application.PLusOne" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.StringReverseArr" />
         <item itemvalue="Application.AddNumbers" />
-        <item itemvalue="Application.IntersectionOfTwoArrays" />
       </list>
     </recent_temporary>
   </component>
@@ -224,14 +225,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723725468977</updated>
-    </task>
-    <task id="LOCAL-00002" summary="My practice">
-      <option name="closed" value="true" />
-      <created>1723729976446</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1723729976446</updated>
     </task>
     <task id="LOCAL-00003" summary="My practice">
       <option name="closed" value="true" />
@@ -617,7 +610,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726497612091</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726557374795</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1726557374796</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
