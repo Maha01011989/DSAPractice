@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/strings/FindDifference.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MaxProfitStock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/arrays/MaxProfitStock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,95 +47,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AddNumbers.executor": "Debug",
-    "Application.AllDuplicates.executor": "Run",
-    "Application.AllMissingNumber.executor": "Run",
-    "Application.ArmStrongNumber.executor": "Run",
-    "Application.Array.executor": "Run",
-    "Application.BinarySearch.executor": "Run",
-    "Application.BubbleSort.executor": "Run",
-    "Application.Ceiling.executor": "Run",
-    "Application.ContainsDuplicates.executor": "Run",
-    "Application.CreateTargetArray.executor": "Run",
-    "Application.CycleSort.executor": "Debug",
-    "Application.DuplicateInArray.executor": "Debug",
-    "Application.EvenFormOfInteger.executor": "Run",
-    "Application.EvenNumbers.executor": "Run",
-    "Application.FibonacciSeries.executor": "Run",
-    "Application.FindDifference.executor": "Run",
-    "Application.FirstAndLastPosition.executor": "Run",
-    "Application.FirstBadVersion.executor": "Run",
-    "Application.FirstMissingPositive.executor": "Run",
-    "Application.FirstUniqueCharacter.executor": "Run",
-    "Application.Floor.executor": "Run",
-    "Application.GoodPairs.executor": "Run",
-    "Application.GuessNumber.executor": "Run",
-    "Application.HollowSquare.executor": "Run",
-    "Application.InsertionSort.executor": "Run",
-    "Application.IntersectionOfTwoArrays.executor": "Debug",
-    "Application.KthLargestElement.executor": "Run",
-    "Application.LongestPalindrome.executor": "Debug",
-    "Application.LongestSubString.executor": "Run",
-    "Application.MaxCount.executor": "Run",
-    "Application.MaxProfitStock.executor": "Run",
-    "Application.MergeSortedArray.executor": "Run",
-    "Application.MinimumInRotatedSortedArray.executor": "Run",
-    "Application.MissingNumber.executor": "Run",
-    "Application.MountainArray.executor": "Run",
-    "Application.MoveZeroToEnd.executor": "Run",
-    "Application.NumberIncreasingRightTriangle.executor": "Run",
-    "Application.NumberRightTriangle.executor": "Run",
-    "Application.NumberTriangle.executor": "Run",
-    "Application.NumbersSmallerThan.executor": "Run",
-    "Application.OddOrEven.executor": "Run",
-    "Application.PLusOne.executor": "Debug",
-    "Application.Palindrome.executor": "Run",
-    "Application.Pangram.executor": "Run",
-    "Application.Pattern.executor": "Run",
-    "Application.PeakElement.executor": "Run",
-    "Application.PeakInMountainArray.executor": "Debug",
-    "Application.PivotElement.executor": "Run",
-    "Application.Practice.executor": "Run",
-    "Application.PracticeArr.executor": "Run",
-    "Application.ProductAndSum.executor": "Debug",
-    "Application.ProductArray.executor": "Run",
-    "Application.RBSWithDuplicates.executor": "Run",
-    "Application.RemoveDuplicates.executor": "Run",
-    "Application.RemoveElement.executor": "Run",
-    "Application.Rhombus.executor": "Run",
-    "Application.RotatedBinarySearch.executor": "Run",
-    "Application.RotationCount.executor": "Run",
-    "Application.SearchIn2DArray.executor": "Run",
-    "Application.SelectionSort.executor": "Run",
-    "Application.SetMismatch.executor": "Run",
-    "Application.SingleElement.executor": "Run",
-    "Application.SingleNumber.executor": "Debug",
-    "Application.SmallestLetter.executor": "Run",
-    "Application.SortColors75.executor": "Run",
-    "Application.StringReplace.executor": "Run",
-    "Application.StringReverseArr.executor": "Debug",
-    "Application.TypeOfTriangle.executor": "Run",
-    "Application.ZeroOneTriangle.executor": "Run",
-    "Application.org.dsapractice.strings.StringReplace.executor": "Run",
-    "JUnit.org.dsapractice.arrays in DSAPractice.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Administrator/IdeaProjects/DSAPractice/src/test/java/org/dsapractice/strings",
-    "settings.editor.selected.configurable": "MavenSettings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AddNumbers.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.AllDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.AllMissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArmStrongNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Array.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Ceiling.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ContainsDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CreateTargetArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CycleSort.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.DuplicateInArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EvenFormOfInteger.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EvenNumbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FibonacciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FindDifference.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstAndLastPosition.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstBadVersion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstMissingPositive.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FirstUniqueCharacter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Floor.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GoodPairs.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GuessNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HollowSquare.executor&quot;: &quot;Run&quot;,
+    &quot;Application.InsertionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.IntersectionOfTwoArrays.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.KthLargestElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LongestPalindrome.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LongestSubString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MaxProfitStock.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MergeSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MinimumInRotatedSortedArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MountainArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MoveZeroToEnd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberIncreasingRightTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberRightTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumberTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NumbersSmallerThan.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OddOrEven.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PLusOne.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.Palindrome.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pangram.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Pattern.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeakElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PeakInMountainArray.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.PivotElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practice.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PracticeArr.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ProductAndSum.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ProductArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RBSWithDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveDuplicates.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Rhombus.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotatedBinarySearch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RotationCount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SearchIn2DArray.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SelectionSort.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetMismatch.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleElement.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SingleNumber.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.SmallestLetter.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SortColors75.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringReplace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StringReverseArr.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.TypeOfTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ZeroOneTriangle.executor&quot;: &quot;Run&quot;,
+    &quot;Application.org.dsapractice.strings.StringReplace.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.org.dsapractice.arrays in DSAPractice.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Administrator/IdeaProjects/DSAPractice/src/test/java/org/dsapractice/strings&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindDifference">
+  <component name="RunManager" selected="Application.MaxProfitStock">
     <configuration name="FindDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.strings.FindDifference" />
       <module name="DSAPractice" />
@@ -155,6 +155,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.dsapractice.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfitStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.MaxProfitStock" />
+      <module name="DSAPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.dsapractice.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,26 +201,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringReverseArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.StringReverseArr" />
-      <module name="DSAPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfitStock" />
         <item itemvalue="Application.FindDifference" />
         <item itemvalue="Application.FirstUniqueCharacter" />
         <item itemvalue="Application.PLusOne" />
         <item itemvalue="Application.SingleNumber" />
-        <item itemvalue="Application.StringReverseArr" />
       </list>
     </recent_temporary>
   </component>
@@ -226,14 +226,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723725468977</updated>
-    </task>
-    <task id="LOCAL-00004" summary="My practice">
-      <option name="closed" value="true" />
-      <created>1724087559330</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1724087559330</updated>
     </task>
     <task id="LOCAL-00005" summary="My practice">
       <option name="closed" value="true" />
@@ -619,7 +611,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726641174760</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726729186969</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1726729186969</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
