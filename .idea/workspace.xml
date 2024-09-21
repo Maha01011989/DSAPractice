@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800ed292-a472-4d17-bb0c-86ba8a249f0f" name="Changes" comment="My practice">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/strings/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/dsapractice/searching/MinCommonValue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +82,7 @@
     "Application.MaxCount.executor": "Run",
     "Application.MaxProfitStock.executor": "Run",
     "Application.MergeSortedArray.executor": "Run",
+    "Application.MinCommonValue.executor": "Run",
     "Application.MinimumInRotatedSortedArray.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.MountainArray.executor": "Run",
@@ -136,7 +137,7 @@
       <recent name="C:\Users\Administrator\IdeaProjects\DSAPractice\src\test\java\org\dsapractice\strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FizzBuzz">
+  <component name="RunManager" selected="Application.MinCommonValue">
     <configuration name="FindDifference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dsapractice.strings.FindDifference" />
       <module name="DSAPractice" />
@@ -189,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PLusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.dsapractice.arrays.PLusOne" />
+    <configuration name="MinCommonValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.dsapractice.searching.MinCommonValue" />
       <module name="DSAPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dsapractice.arrays.*" />
+          <option name="PATTERN" value="org.dsapractice.searching.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -204,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinCommonValue" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.MaxProfitStock" />
         <item itemvalue="Application.FindDifference" />
         <item itemvalue="Application.FirstUniqueCharacter" />
-        <item itemvalue="Application.PLusOne" />
       </list>
     </recent_temporary>
   </component>
@@ -227,14 +228,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723725468977</updated>
-    </task>
-    <task id="LOCAL-00006" summary="My practice">
-      <option name="closed" value="true" />
-      <created>1724162195135</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1724162195135</updated>
     </task>
     <task id="LOCAL-00007" summary="My practice">
       <option name="closed" value="true" />
@@ -620,7 +613,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726840241437</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="My practice">
+      <option name="closed" value="true" />
+      <created>1726841256332</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1726841256332</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -676,8 +677,8 @@
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/strings/FizzBuzz.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/test/java/org/dsapractice/searching/MinCommonValue.java</url>
+          <line>15</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
